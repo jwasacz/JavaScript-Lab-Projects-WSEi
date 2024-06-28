@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="0">
+        <input class="input" type="number" />
+        <button type="button" id="0" onclick="deleteInput(0)" class="delete">
+          Usuń
+        </button>
+      </div>
+
+      <div id="1">
+        <input class="input" type="number" />
+        <button type="button" id="1" onclick="deleteInput(1)" class="delete">
+          Usuń
+        </button>
+      </div>
+
+      <div id="2">
+        <input class="input" type="number" />
+        <button type="button" id="2" onclick="deleteInput(2)" class="delete">
+          Usuń
+        </button>
+      </div>
+    </div>
+
+    <div>
+      <button type="button" class="add">Dodaj</button>
+      <button type="button" class="count">Oblicz</button>
+    </div>
+
+    <div>
+      <div class="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

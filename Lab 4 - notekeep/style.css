@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.note {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-right: 15px;
+}
+
+input[type="text"] {
+  width: calc(100% - 30px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-btn, .clearAll-btn {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn {
+  background-color: #4caf50;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+.clearAll-btn {
+  background-color: red;
+}
+
+.clearAll-btn:hover {
+  background-color: #dd3131;
+}
+
+.note-list {
+  margin: 20px auto;
+  width: 80%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.note-list ul{
+  padding-left: 0px;
+}
+
+.note-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 800px;
+  box-sizing: border-box;
+  border: none;
+  transition: box-shadow 0.3s ease;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.note-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.note-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.note-content {
+  color: #555;
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.button-colors button {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.button-colors button:hover {
+  transform: scale(1.1);
+}
+
+.blue {
+  background-color: blue;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+}
+
+.red {
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+}
+
+.green {
+  background-color: green;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+}
+
+
+.note-footer{
+  display: flex;
+  width: 750px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+.time{
+  margin-left: 10px;
+  justify-content: end;
+}
+
+.note-pin{
+  margin: 15px 0px 15px 0px; 
+}
